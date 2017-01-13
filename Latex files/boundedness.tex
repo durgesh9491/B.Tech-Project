@@ -1,0 +1,49 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in,paperwidth=8.5in,paperheight=11in]{geometry}
+\begin{document}
+
+\section{Boundedness  of the system}
+
+To verify our system is bounded, let us assume:
+
+\begin{equation*}
+N (t) =S (t)+B (t)+L (t)+R (t)+A (t) \text{, then, }&\\
+
+$ \frac{dN}{dt} $ = $\frac{dS}{dt} + \frac{dL}{dt} + \frac{dB}{dt} + \frac{dR}{dt} + \frac{dA}{dt}$ \\
+
+& = b - \tilde{d_1}\tilde{S}-\tilde{d_2}\tilde{B}-\tilde{d_2}\tilde{L}-\tilde{d_1}\tilde{R}-\tilde{d_1}\tilde{A}. \hspace{5 mm} \\
+
+\text{Again, let} &\\
+
+d &= \text{min} \left\{\tilde{d_1},\ \tilde{d_2}\right\}
+
+\text{, then, } \\
+
+$\frac{dN}{dt}$ &\leq $b - \tilde{d} [S + L + B + R + A]=b-\~{d}N $
+
+\end{equation*}
+
+If $N(t) > \frac{b}{\tilde{d}}$, then $\frac{dN}{dt}<0$, implying $lim sup_{t \to \infty} N(t) \leq \frac{b}{\tilde{d}}$. After a moment of reflection, it can be seen that, for arbitrarily small $\kappa > 0$, the simply connected compact set
+\[
+\Omega_\kappa =  \left\{(S,L,B,R,A) \in R^5_+ : S+L+B+R+A \leq \frac{b}{\tilde{d}} + \kappa \right\}
+\]
+is positively invariant for the SLBRAS model.
+similarly for \textbf{Attacking Population}.
+Hence our proposed system is well posed.
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

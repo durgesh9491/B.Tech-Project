@@ -1,0 +1,67 @@
+\chapter{Conclusion and Future Scope}
+\section{Conclusion}
+In this work, an SLBRA epidemic model with distributed
+attack on targeted resources is proposed and analyzed using stability theory of ordinary differential equations incorporating firewall security rule base. The important observations of this work are as follows:
+\begin{itemize}
+\item
+For the proposed model sixteen equilibrium states are calculated out of which four are malicious codes free equilibrium and rest are endemic in nature. Basic reproduction number for
+the disease free equilibrium states has been calculated and it has been found that if $R_{0} < 1$, then malicious code free equilibrium is stable and, if $R_{0} > 1$,
+then the endemic equilibrium is stable. These conditions are verified by local
+asymptotic stability of the system.
+\item
+An approach to estimate coefficient of firewall security m is developed as\\
+          $$m=-{\log_e (p+q-pq)},$$
+where, q quantifies the response of the files to the defined security rules. It is assumed that the malware propagation rate can be reduced by p fraction, when all received files follow the defined security rules.
+
+\item
+It is observed from the analysis that the coefficient of media coverage m does
+not affect $R_{0}$ and hence the qualitative features of the model remains unaltered.
+
+\item
+We conclude that use of firewall security rule base helps to mitigate
+the problem of malicious code propagation in the network by lowering the level of infectious nodes at steady state.
+
+\item
+Finally, Normalized forward sensitivity indices are calculated for effective reproduction
+number and state variables at endemic equilibrium with respect to various parameters and respective sensitive parameters are identified. We observed most sensitive parameters for Basic Reproduction Number which are shown in the table below, estimation of these parameters should be done very carefully.
+
+
+\begin{center}
+\begin{tabular}{ |c|c| }
+ \hline
+  Basic Reproduction Number & Most Sensitive Parameters\\
+  \hline
+  $R_{01}$                  & $\beta_1,\beta_2,\beta_4$\\
+  $R_{02}$                  & $\beta_1,\beta_2$  \\
+  $R_{03}$                  & $\beta_2,\beta_3,\beta_4,k,c$ \\
+  $R_{04}$                  & $\beta_1,\beta_2 ,k,c$\\
+ \hline
+\end{tabular}
+\end{center}
+\end{itemize}
+\section{Future Scope}
+
+This work can be extended by adding more control strategies such as time delay for outbreak and time varying recruitment rate. In addition, a more generic model can be proposed by introducing classification of susceptible nodes.
+In all epidemiological models of which we are aware, an individual's cure takes place independently of that
+of any other individual. However, consider the following scenario, one day, Alice discovers that one of the programs she uses on her PC is infected with a virus. She eradicates it, in most models, this would be the end of the story. However, in this case Alice takes it upon herself to inform her friends Bob, Carol, and Dave, with whom she remembers having exchanged software sometime during the last few weeks. Simultaneously Bob, Carol and Dave eradicates virus if found and inform to their friends. This may be explained by a model in which, once a machine is found to be infected, neighboring machines are checked for viruses. This "kill signal" idea could be implemented in networks to greatly reduce the threat of viral spread.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

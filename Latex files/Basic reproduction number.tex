@@ -1,0 +1,143 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in,paperwidth=8.5in,paperheight=11in]{geometry}
+\begin{document}
+
+\section{Basic Reproduction Number }
+
+The basic reproduction number, ${{\cal R}}_{0}$, is defined as the expected number of secondary cases produced by a single (typical) infection in a completely susceptible population. It is considered as one of the most useful threshold parameters to characterize the malicious object propagation. It can be obtained by taking the derivative of infection classes, i.e., $2^{nd}$ and $3^{rd}$ equations of both targeted and attacker system . Let $ x = (L, \  B,\ L_{1},\ B_{1})$, then
+
+\[ \frac{dx}{dt} =  \cal{F}-\cal{V},   \]
+where,  \[   \cal{F} = \left[
+                         \begin{array}{c}
+                          \beta _{2}e^{-m1 B}SB + \beta _{2}e^{-m2 B_{1}}SB_{1} + SB   \\
+                          \beta _{1}e^{-m1 L}SL + \beta _{1}e^{-m2 L_{1}}SL_{1} + SL   \\
+                          \beta_{4} S_{1}B_{1}N_{1} + B_{1}S_{1} \\
+                          \beta_{3} S_{1}L_{1}N_{1} + L_{1}S_{1} \\
+                         \end{array} \right]    \text{and} \quad     \cal{V} = \left[
+                                                                           \begin{array}{c}
+                                                                            d_2B-\epsilon L+\gamma B+\frac{B}{N}-d_{2}B^{2}-d_{2}BL-BR-BA\\
+                                                                            d_2L+\epsilon L+\delta L+\frac{L}{N}-d_{2}L^{2}-d_{2}BL-LR-LA\\
+                                                                            d_3B_{1}-\epsilon_{1}L_{1}+\gamma_{1}B_{1}+\frac{B_1}{N_1}-d_{3}{B_1}^{2}-d_{3}B_1L_1-B_1R_1-B_1A_1\\
+                                                                            d_3L_{1}+\epsilon_{1}L_{1}+\delta_{1}L_{1}+\frac{L_1}{N_1}-d_{3}{L_1}^{2}-d_{3}B_1L_1-L_1R_1-L_1A_1
+                                                                            \end{array} \right]. \]
+
+We get, \\
+
+$\mathbf{\mathtt{F}}$ = Jacobian of $\cal{F}$ at malicious codes-free equilibrium = $\left[
+                         \begin{array}{cccc}
+                         (\beta _{2}+1){S} & 0 & \beta_{2}{S} & 0 \\
+                          0 & (\beta _{1}+1){S} & 0 & \beta_{1}{S} \\
+                          0 & 0 & (\beta_{4}+1) S_{1} & 0 \\
+                          0 & 0 & 0 & (\beta_{3}+1) S_{1} \\
+                         \end{array} \right] $, \\
+                         and\\
+$\mathbf{\mathtt{V}}$ = Jacobian of $\cal{V}$ at malicious codes-free equilibrium = $\left[
+                                                                           \begin{array}{cccc}
+                                                                           \gamma-A+d_{2}+1 & -\epsilon & 0 & 0 \\
+                                                                            0 & \epsilon-A+\delta+d_{2}+1   & 0 & 0 \\
+                                                                            0 & 0 &  \gamma_{1}-A_{1}+d_{3}+1 & -\epsilon_{1}\\
+                                                                            0 & 0 & 0 & \epsilon_{1}-A_{1}+\delta_{1}+d_{3}+1 \\
+                                                                           \end{array}
+                                                                         \right].$
+
+\\F is the matrix of rates of secondary infection and V is the matrix of rates of transmission. Then, the basic reproductive number ${{\cal R}}_{0}$ is defined as the dominant eigenvalue of $FV^{-1}$.\\
+
+\[ \mathbf{\mathtt{FV}}^{-1} = \left[
+                                           \begin{array}{cccc}
+                                             \frac{(\beta _{2}+1)S}{(\gamma-A+ d_{2}+1)} &  \frac{(\beta _{2}+1)\epsilon S}
+                                               {(\gamma-A+ d_{2}+1)(\epsilon-A+\delta+d_{2}+1)} &
+                                               \frac{\beta _{2}S}{(\gamma_{1}-A_{1}+ d_{3}+1)} &
+                                               \frac{\beta_{2}\epsilon_{1}S}{(\gamma_{1}-A_{1}+d_{3}+1)(d_{3}-A_{1}+\epsilon_{1}+\delta_{1}+1)}\\
+                                               0 & \frac{(\beta_{1}+1)S}{(\epsilon-A+\delta+d_{2}+1)} & 0 &  \frac{\beta_{1}S}{(d_{3}-A_{1}+\epsilon_{1}+\delta_{1}+1)}  \\
+                                               0 & 0 &  \frac{(\beta _{4}+1)S_{1}}{(\gamma_{1}-A_{1}+ d_{3}+1)} &  \frac{(\beta_{4}+1)\epsilon_{1}S_{1}}{(\gamma_{1}-A_{1}+d_{3}+1)(d_{3}-A_{1}+\epsilon_{1}+\delta_{1}+1)}\\
+                                               0 & 0 & 0 &
+                                               \frac{(\beta_{3}+1)S_{1}}{(d_{3}-A_{1}+\epsilon_{1}+\delta_{1}+1)}\\
+                                           \end{array}
+                                         \right], \]
+
+and hence,\\
+
+\begin{align}
+& {{\cal R}}_{0} = \text{max} \begin{Bmatrix}
+\{\frac{(\beta _{1}+1){S}}{(\epsilon-A+\delta+d_{2}+1 )}\ \ ,& \frac{(\beta _{3}+1)S_{1}}{ (\epsilon_{1}-A_{1}+\delta_{1}+d_{3}+1)}, &\frac{(\beta _{2}+1){S}}{\gamma-A+d_{2}+1},&\frac{(\beta _{4}+1){S}}{\gamma_{1}-A_{1}+d_{3}+1}\}
+\end{Bmatrix}
+,\end{align}\\
+
+where $S$, $S_{1}$ is the node density of Susceptible class and $A$, $A_{1}$ is the node density of antidotal class of targeted and attacker population respectively in malicious codes - free equilibrium state. In this model we have four such states $E_1$,$E_2$,$E_3$ and $E_4$ and hence we have four basic reproduction number ${{\cal R}}_{01}$, ${{\cal R}}_{02}$, ${{\cal R}}_{03}$ and ${{\cal R}}_{04}$ respectively.\\
+
+\paragraph{Value of ${{\cal R}}_{01}$,${{\cal R}}_{02}$,${{\cal R}}_{03}$ and ${{\cal R}}_{04}$},\\
+
+for equilibrium state $E_1$\\
+
+ $S=1$,$A=0$,$S_{1}=1$,$A_{1}=0$ and hence,\\
+
+\begin{align}
+{{\cal R}}_{01} = \text{max} \begin{Bmatrix}
+\{\frac{(\beta _{1}+1)}{(\epsilon+\delta+d_{2}+1 )}\ \ ,& \frac{(\beta _{3}+1)}{ (\epsilon_{1}+\delta_{1}+d_{3}+1)}, &\frac{(\beta _{2}+1)}{\gamma+d_{2}+1},&\frac{(\beta _{4}+1)}{\gamma_{1}+d_{3}+1}\} \ \ ,
+\end{Bmatrix}
+\end{align}\\
+
+Similarly, for equilibrium state $E_2$\\
+
+$S=1$,$A=0$,$S_{1}=\frac{1+c_{1}}{k_1}$,$A_{1}=1-\frac{1+c_{1}}{k_1}$ and hence,\\
+
+\begin{align}
+{{\cal R}}_{02} = \text{max} \begin{Bmatrix}
+\{\frac{(\beta _{1}+1)}{(\epsilon+\delta+d_{2}+1 )}\ \ ,
+& \frac{(\beta _{3}+1)(1+c_{1})}{k_{1} (\epsilon_{1}+\frac{1+c_{1}}{k_{1}}+\delta_{1}+d_{3})}, &\frac{(\beta _{2}+1)}{\gamma+d_{2}+1},&\frac{(\beta _{4}+1)(1+c_{1})}{k_{1}(\gamma_{1}+\frac{1+c_{1}}{k_{1}}+d_{3})}\} \ \ ,
+\end{Bmatrix}
+\end{align}\\
+
+Similarly, for equilibrium state $E_3$\\
+
+$S=\frac{1+c}{k}$,$A=1-\frac{1+c}{k}$,$S_{1}=\frac{1+c_{1}}{k_1}$,$A_{1}=1-\frac{1+c_{1}}{k_1}$ and hence,\\
+
+\begin{align}
+{{\cal R}}_{03} = \text{max} \begin{Bmatrix}
+\{\frac{(\beta _{1}+1)(1+c)}{k (\epsilon+\frac{1+c}{k}+\delta+d_{2})}\ \ ,& \frac{(\beta _{3}+1)(1+c_{1})}{k_{1} (\epsilon_{1}+\frac{1+c_{1}}{k_{1}}+\delta_{1}+d_{3})}, &\frac{(\beta_{2}+1)(1+c)}{k(\gamma+\frac{1+c}{k}+d_{2})},&\frac{(\beta _{4}+1)(1+c_{1})}{k_{1}(\gamma_{1}+\frac{1+c_{1}}{k_{1}}+d_{3})}\} \ \ ,
+\end{Bmatrix}
+\end{align}\\
+
+Similarly, for equilibrium state $E_4$\\
+
+$S=\frac{1+c}{k}$,$A=1-\frac{1+c}{k}$,$S_{1}=1$,$A_{1}=0$  and hence,\\
+
+\begin{align}
+{{\cal R}}_{04} = \text{max} \begin{Bmatrix}
+\{\frac{(\beta _{1}+1)(1+c)}{k (\epsilon+\frac{1+c}{k}+\delta+d_{2})}\ \ ,& \frac{(\beta _{3}+1)}{ (\epsilon_{1}+\delta_{1}+d_{3}+1)}, &\frac{(\beta_{2}+1)(1+c)}{k(\gamma+\frac{1+c}{k}+d_{2})},&\frac{(\beta _{4}+1)}{\gamma_{1}+d_{3}+1}}\} \ \
+\end{Bmatrix}
+.\end{align}\\
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

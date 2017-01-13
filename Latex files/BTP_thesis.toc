@@ -1,0 +1,24 @@
+\contentsline {chapter}{ABSTRACT}{ii}
+\contentsline {chapter}{LIST OF TABLES}{vi}
+\contentsline {chapter}{LIST OF FIGURES}{viii}
+\contentsline {chapter}{\numberline {1}Proposed Mathematical Model}{ix}
+\contentsline {section}{\numberline {1.1}Compartment Description}{ix}
+\contentsline {section}{\numberline {1.2}Mathematical Model}{xii}
+\contentsline {section}{\numberline {1.3}Boundedness of the System}{xv}
+\contentsline {chapter}{\numberline {2}Analysis}{xvi}
+\contentsline {section}{\numberline {2.1}Steady States and their Stability}{xvi}
+\contentsline {section}{\numberline {2.2}Basic Reproduction Number}{xviii}
+\contentsline {section}{\numberline {2.3}Local Asymptotical Stability}{xx}
+\contentsline {section}{\numberline {2.4}Numerical Experimentation}{xxiii}
+\contentsline {subsection}{\numberline {2.4.1}Feasible Steady States}{xxiii}
+\contentsline {section}{\numberline {2.5}Estimation of firewall security coefficient}{xxx}
+\contentsline {subsection}{\numberline {2.5.1}Order of Rule Enforcement}{xxx}
+\contentsline {subsection}{\numberline {2.5.2}Firewall rule priority}{xxx}
+\contentsline {subsection}{\numberline {2.5.3}Authenticated bypass}{xxx}
+\contentsline {subsection}{\numberline {2.5.4}Block connection}{xxx}
+\contentsline {subsection}{\numberline {2.5.5}Allow connection}{xxxi}
+\contentsline {section}{\numberline {2.6}Sensitivity Analysis:}{xxxiii}
+\contentsline {chapter}{\numberline {3}Conclusion and Future Scope}{xxxviii}
+\contentsline {section}{\numberline {3.1}Conclusion}{xxxviii}
+\contentsline {section}{\numberline {3.2}Future Scope}{xxxix}
+\contentsline {chapter}{REFERENCES}{xli}

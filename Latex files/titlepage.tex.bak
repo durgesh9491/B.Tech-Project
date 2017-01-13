@@ -1,0 +1,38 @@
+\title{}
+\author{}
+\thispagestyle{empty}
+
+\begin{titlepage}
+\begin{center}
+{\Large \bf A Compartmental Model for Transmission Dynamics of Distributed Attack of Malicious Codes on a Targeted Network: Effect of Firewall Security} \\
+\end{center}
+\begin{center}
+%\vspace{0.2in}
+%{\large Dissertation} \\
+\vspace{0.4in}
+{\large \it A project report submitted in partial fulfillment of the requirements for the award of the degree of} \\
+\vspace{0.4in}
+{\large \bf B.Tech.} \\
+\vspace{0.4in}
+{\large \it by\\}
+\vspace{0.3in}
+{\large \bf Durgesh Kumar Soni (2012IPG-032)}\\
+{\large \bf Palash Jain (2012IPG-105)}\\
+{\large \bf Ashish Bhargava (2012IPG-123)}\\
+\end {center}
+\vspace{0.4in}
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[width=1 in]{iiitm.eps}
+\end{center}
+\end{figure}
+
+%\vspa1ce{0.1in}
+\begin{center}
+{ \bf ABV INDIAN INSTITUTE OF INFORMATION TECHNOLOGY AND MANAGEMENT\\
+GWALIOR-474 015\\}
+\vspace{0.2in}
+{\Large \bf 2015-16\\}
+\end{center}
+\end{titlepage}
+%\pagestyle{headings} 

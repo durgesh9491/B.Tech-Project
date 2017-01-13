@@ -1,0 +1,33 @@
+\section{Parameters Description }
+\begin{center}
+\begin{tabular}{|c|c|}
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  \textbf{Parameters} & \textbf{Description }\\
+  \hline
+  $b,b_1$ & Recruitment rate\\
+  \hline
+  $d_1,d_2$ & Natural death rate of attacker and targeted population nodes\\
+  \hline
+  $\beta,\beta_1$ & rate of contact from susceptible class to latent class;(in the absence of firewall security) \\
+  \hline
+  $\gamma,\gamma_1$ & Recovery rate of breaking-out nodes \\
+  \hline
+  $\delta,\delta_1$ & Recovery rate of latent nodes\\
+  \hline
+  $d_3,d_4$ & Death rate of nodes in infected class(death due to infection and natural death) \\
+  \hline
+  $\epsilon,\epsilon_1$& Rate of breaking-out of viruses in latent class\\
+  \hline
+  $f,f_1$ & Rate of conversion of recovered nodes into antidotal nodes \\
+  \hline
+  $c,c_1$ & Rate of conversion of antidotal nodes into susceptible nodes \\
+  \hline
+  $k,k_1$ & Rate of conversion of susceptible nodes into antidotal nodes \\
+  \hline
+  $\alpha,\alpha_1$ & Rate of conversion of recovered nodes into susceptible nodes \\
+  \hline
+  \label{table1}
+\end{tabular}
+\end{center}
+\end{document} 

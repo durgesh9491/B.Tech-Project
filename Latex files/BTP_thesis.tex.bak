@@ -1,0 +1,96 @@
+%\documentstyle[12pt]{article}
+\documentclass[12pt,oneside]{report}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{epsfig}
+\usepackage{multirow}
+\geometry{verbose,a4paper,tmargin=25mm,bmargin=25mm,lmargin=32mm,rmargin=32mm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+%\usepackage[parfill]{parskip}
+%\usepackage{amssymb}
+%\usepackage{amsthm}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{subfigure}
+%\usepackage{graphicx}
+\textheight=8.8in \textwidth=6.3in \topmargin=-0.1in
+%\voffset=-1.1in \hoffset=-.45in
+%\include{intro2}
+%\include{ref}
+%\includeonly{ref}
+%--------------------------------------
+%\newtheorem{theor}{Theorem}[section]
+%\newtheorem{lemma}{Lemma}[section]
+%\newtheorem{examp}{Example}[section]
+%\tableofcontent
+%---------- Page style ---------
+%\pagestyle{myheadings}
+%\pagestyle{fancyplain}
+%\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+%\usefont{T1}{tnr}{m}{sl}
+\makeatletter
+\makeatother
+\renewcommand{\contentsname}{TABLE OF CONTENTS}
+\renewcommand\listtablename{LIST OF TABLES}
+\renewcommand\listfigurename{LIST OF FIGURES}
+\renewcommand\bibname{REFERENCES}
+\usepackage[square,comma]{natbib}
+%\usepackage[authoryear,round]{natbib}
+\renewcommand{\chaptername}{CHAPTER}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+%\lhead[\fancyplain{}{\bf\thepage}]{\fancyplain{}{\small\rightmark}}
+%\rhead[\fancyplain{}{\small\leftmark}]{\fancyplain{}{\bf\thepage}}
+%\cfoot{}
+%\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\Bo}{\rule{2mm}{3mm}}
+\newtheorem{theor}{Theorem}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{examp}{Example}[section]
+%\newcommand{\ba}{\begin{eqnarray}}
+%\newcommand{\ee}{\end{eqnarray}
+%\newcommand{\ba}{\begin{eqnarray}}
+%\newcommand{\ee}{\end{eqnarray}
+\newcommand{\bfig}{\begin{figure}[!h]}
+\newcommand{\efig}{\end{figure}}
+\newcommand{\bt}{\begin{theor}}
+\newcommand{\et}{\end{theor}}
+\newcommand{\bl}{\begin{lemma}}
+\newcommand{\el}{\end{lemma}}
+%++++++++++++++++++++++++++++++++++
+\parindent 10mm
+\parskip 12pt
+%----------------------------------
+%\setcounter{chapter}{5}
+%\setcounter{page}{135}
+\pagenumbering{roman}
+%\tableofcontents
+\begin{document}
+\baselineskip=21pt
+%\include{abstract}
+\setcounter{page}{1}
+%\baselineskip=1.35\normalbaselineskip
+
+%\include{titlepage}
+%\include{declaration}
+%\include{abs}
+%\include{ack}
+%\tableofcontents
+%\addcontentsline{toc}{chapter}{LIST OF TABLES}
+%\listoftables
+%\listoffigures
+%\addcontentsline{toc}{chapter}{LIST OF FIGURES}
+%\include{Introduction}
+%\include{Chapter2}
+%\include{Chapter3}
+\include{chapter4}
+%\include{mani_chapter_5}
+%\include{mani_chapter_6}
+%\include{Future}
+%\include{ref}
+\setcitestyle{numbers}
+\addcontentsline{toc}{chapter}{REFERENCES}
+\bibliographystyle{kluwer}
+\bibliography{ref}
+\end{document}

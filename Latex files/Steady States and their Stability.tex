@@ -1,0 +1,53 @@
+
+\section{Steady States and their Stability}
+\paragraph* {Equilibrium Points}
+To study the dynamics of the model, we determine the equilibrium points which are obtained by taking,\\
+ $ \frac{dS}{dt} = 0 = \frac{dL}{dt} = \frac{dB}{dt} = \frac{dR}{dt} = \frac{dA}{dt}=\frac{d{S_1}}{dt}=\frac{d{L_1}}{dt}= \frac{d{B_1}}{dt}=\frac{d{R_1}}{dt}=\frac{d{A_1}}{dt} $  \\
+ from system (\ref{}). In the absence of infection, the model has four malicious codes - free equilibrium states:\\
+
+\begin{align}
+
+& E_{1} &= \left( 1,\ 0,\ 0,\ 0,\ 0,\ 1, \ 0, \ 0, \ 0, \ 0 \right), \label{eq:E1},\\
+
+& E_{2} &= \left( 1,\ 0,\ 0,\ 0,\ 0,\ \frac{1+c_1}{k_1}, \ 0, \ 0, \ 0, \ 1- \frac{1+c_1}{k_1} \right), \label{eq:E2}\\
+
+& E_{3} &= \left( \frac{1+c}{k},\ 0,\ 0,\ 0,\ 1- \frac{1+c}{k},\ 1, \ 0, \ 0, \ 0, \ 0 \right), \label{eq:E3}\\
+
+& E_{4} &= \left( \frac{1+c}{k},\ 0,\ 0,\ 0,\ 1- \frac{1+c}{k},\ \frac{1+c_1}{k_1}, \ 0, \ 0, \ 0, \ 1- \frac{1+c_1}{k_1} \right), \label{eq:E4}\\
+\end{align}
+
+and twelve endemic equilibrium states:\\
+
+\begin{align}
+& E_{5} = \left( 1, \ 0, \ 0, \ 0, \ 0, \ \hat{S_1},\ 0,\ \hat{B_1},\ \hat{R_1},\ \hat{A_1} \right) \label{eq:E5},\\
+
+& E_{6} = \left( 1, \ 0, \ 0, \ 0, \ 0, \ \hat{S_1},\ \hat{L_1},\ \hat{B_1},\ \hat{R_1},\ \hat{A_1} \right) \label{eq:E6},\\
+
+& E_{7} = \left( \frac{1+c}{k},\ 0,\ 0,\ 0,\ 1- \frac{1+c}{k},\ \hat{S_1},\ 0,\ \hat{B_1},\ \hat{R_1},\ \hat{A_1} \right)\label{eq:E7},\\
+
+& E_{8} = \left( \frac{1+c}{k},\ 0,\ 0,\ 0,\ 1- \frac{1+c}{k}, \ \hat{S_1},\ \hat{L_1},\ \hat{B_1},\ \hat{R_1},\ \hat{A_1} \right)\label{eq:E8},\\
+
+& E_{9} = \left( \hat{S}, \ 0,\ \hat{B},\ \hat{R},\ \hat{A}, \ 1, \ 0, \ 0, \ 0, \ 0 \right) \label{eq:E9},\\
+
+& E_{10} = \left( \hat{S}, \ 0,\ \hat{B},\ \hat{R},\ \hat{A}, \ \frac{1+c_1}{k_1}, \ 0, \ 0, \ 0, \ 1- \frac{1+c_1}{k_1} \right) \label{eq:E10},\\
+
+& E_{11} = \left( \hat{S}, \ 0,\ \hat{B},\ \hat{R},\ \hat{A},\ \hat{S_1},\ 0,\ \hat{B_1},\ \hat{R_1},\ \hat{A_1} \right) \label{eq:E11},\\
+
+& E_{12} = \left( \hat{S}, \ 0,\ \hat{B},\ \hat{R},\ \hat{A},\ \hat{S_1},\ \hat{L_1},\ \hat{B_1},\ \hat{R_1},\ \hat{A_1} \right) \label{eq:E12},\\
+
+& E_{13} = \left( \hat{S}, \ \hat{L},\ \hat{B},\ \hat{R},\ \hat{A}, \ 1, \ 0, \ 0, \ 0, \ 0\right) \label{eq:E13},\\
+
+& E_{14} = \left( \hat{S}, \ \hat{L},\ \hat{B},\ \hat{R},\ \hat{A},  \ \frac{1+c_1}{k_1}, \ 0, \ 0, \ 0, \ 1- \frac{1+c_1}{k_1}\right) \label{eq:E14},\\
+
+& E_{15} = \left( \hat{S}, \ \hat{L},\ \hat{B},\ \hat{R},\ \hat{A}, \ \hat{S_1},\ 0,\ \hat{B_1},\ \hat{R_1},\ \hat{A_1} \right) \label{eq:E15},\\
+
+& E_{16} = \left( \hat{S}, \ \hat{L},\ \hat{B},\ \hat{R},\ \hat{A}, \ \hat{S_1},\ \hat{L_1} ,\ \hat{B_1},\ \hat{R_1},\ \hat{A_1} \right) \label{eq:E16},\\
+
+\end{align}
+
+Here we can say that $E_1$ is the equilibrium point on the $S-S_1$ plane and $E_2$ is the equilibrium point on the $S-S_1-A_1$ plane. Also $E_3$ is the equilibrium point on the $S-A-S_1$ plane and $E_4$ is the equilibrium point on the $S-A-S_1-A_1$ plane in the space and all other equilibrium states are interior points on the space. Steady state $E_1$ is always feasible since all the other parameters are positive. State $E_2$, $E_3$ and $E_4$ are feasible when $\frac{1+c}{k} \leq 1.$ Feasibility of other non-malicious code free steady states for different parameter sets can be calculated using numerical values of parameters.\\
+
+The conditions for stability of malicious-code free solutions can be obtained with the expressions for the equilibrium points. This will be useful for establishing the minimum recovery rate so as to avoid infection propagation.
+
+
+

@@ -1,0 +1,114 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{cui2008impact}
+J.~Cui, Y.~Sun, H.~Zhu, The impact of media on the control of infectious
+  diseases, Journal of Dynamics and Differential Equations 20~(1) (2008)
+  31--53.
+
+\bibitem{liu2008impact}
+Y.~Liu, J.-a. Cui, The impact of media coverage on the dynamics of infectious
+  disease, International Journal of Biomathematics 1~(01) (2008) 65--74.
+
+\bibitem{sahu2012}
+G.~P. Sahu, J.~Dhar, Analysis of an sveis epidemic model with partial temporary
+  immunity and saturation incidence rate, Applied Mathematical Modelling 36~(3)
+  (2012) 908--923.
+
+\bibitem{sahu2015dynamics}
+G.~P. Sahu, J.~Dhar, Dynamics of an seqihrs epidemic model with media coverage,
+  quarantine and isolation in a community with pre-existing immunity, Journal
+  of Mathematical Analysis and Applications 421~(2) (2015) 1651--1672.
+
+\bibitem{goswami2012information}
+R.~T. Goswami, B.~K. Mishra, Information and the dynamics of seir e-epidemic
+  model for the spreading behavior of malicious objects in computer network,
+  International Journal of Engineering Science and Technology 4~(10) (2012)
+  4275--4282.
+
+\bibitem{yang2012towards}
+X.~Yang, L.-X. Yang, Towards the epidemiological modeling of computer viruses,
+  Discrete Dynamics in Nature and Society 2012.
+
+\bibitem{kephart1993computers}
+J.~O. Kephart, S.~R. White, D.~M. Chess, Computers and epidemiology, Spectrum,
+  IEEE 30~(5) (1993) 20--26.
+
+\bibitem{molen2011math}
+H.~Molen, Math on malware, Inform Syst Audit Control Assoc J 3 (2011) 41--46.
+
+\bibitem{kermack1927contribution}
+W.~O. Kermack, A.~G. McKendrick, A contribution to the mathematical theory of
+  epidemics, in: Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences, Vol. 115, The Royal Society, 1927, pp.
+  700--721.
+
+\bibitem{kermack1932contributions}
+W.~O. Kermack, A.~G. McKendrick, Contributions to the mathematical theory of
+  epidemics. ii. the problem of endemicity, in: Proceedings of the Royal
+  Society of London A: Mathematical, Physical and Engineering Sciences, Vol.
+  138, The Royal Society, 1932, pp. 55--83.
+
+\bibitem{kermack1933contributions}
+W.~O. Kermack, A.~G. McKendrick, Contributions to the mathematical theory of
+  epidemics. iii. further studies of the problem of endemicity, Proceedings of
+  the Royal Society of London. Series A 141~(843) (1933) 94--122.
+
+\bibitem{misra2014capturing}
+A.~Misra, M.~Verma, A.~Sharma, Capturing the interplay between malware and
+  anti-malware in a computer network, Applied Mathematics and Computation 229
+  (2014) 340--349.
+
+\bibitem{wang2015worm}
+F.~Wang, Y.~Yang, D.~Zhao, Y.~Zhang, A worm defending model with partial
+  immunization and its stability analysis, Journal of Communications 10~(4).
+
+\bibitem{brady2015editor}
+O.~J. Brady, H.~C.~J. Godfray, A.~J. Tatem, P.~W. Gething, J.~M. Cohen, F.~E.
+  McKenzie, T.~A. Perkins, R.~C. Reiner~Jr, L.~S. Tusting, T.~W. Scott, et~al.,
+  Editor's choice: Adult vector control, mosquito ecology and malaria
+  transmission, International health 7~(2) (2015) 121.
+
+\bibitem{sun2014impact}
+M.~Sun, D.~Li, D.~Han, C.~Jia, Impact of anti-virus software on computer virus
+  dynamical behavior, International Journal of Modern Physics C 25~(05) (2014)
+  1440010.
+
+\bibitem{mishra2014mathematical}
+B.~K. Mishra, A.~Prajapati, Mathematical model on attack by malicious objects
+  leading to cyber war, International Journal of Nonlinear Science 17~(2)
+  (2014) 145--153.
+
+\bibitem{mishra2011}
+B.~K. Mishra, S.~K. Pandey, Dynamic model of worms with vertical transmission
+  in computer network, Applied Mathematics and Computation 217~(21) (2011)
+  8438--8446.
+
+\bibitem{anupama2014}
+A.~K. Misra, M.~Verma, A.~Sharma, Capturing the interplay between malware and
+  anti-malware in a computer network, Applied Mathematics and Computation 229
+  (2014) 340--349.
+
+\bibitem{mishra2mathematical}
+B.~K. Mishra, G.~M. Ansari, Mathematical models on interaction between computer
+  virus and antivirus software inside a computer system, International Journal
+  of Computer and Network Security 2~(8) (2010) 84--89.
+
+\bibitem{mishra2007mathematical}
+B.~K. Mishra, D.~Saini, Mathematical models on computer viruses, Applied
+  Mathematics and Computation 187~(2) (2007) 929--936.
+
+\bibitem{ren2013optimal}
+J.~Ren, Y.~Xu, C.~Zhang, Optimal control of a delay-varying computer virus
+  propagation model, Discrete Dynamics in Nature and Society 2013 (2013) 1--7.
+
+\bibitem{chitnis2008determining}
+N.~Chitnis, J.~M. Hyman, J.~M. Cushing, Determining important parameters in the
+  spread of malaria through the sensitivity analysis of a mathematical model,
+  Bulletin of mathematical biology 70~(5) (2008) 1272--1296.
+
+\end{thebibliography}

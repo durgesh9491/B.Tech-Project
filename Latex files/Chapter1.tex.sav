@@ -1,0 +1,91 @@
+%\documentclass[12pt]{article}
+
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\chapter{Introduction and Literature Review}
+
+\section{Introduction}
+In the era of cloud computing, malicious code propagation is critical for any network. Malicious code would not simply have an effect on only one computer, but it can also get into networks and spread. It can also send messages through social networking and steal information or cause even more damage by deleting and corrupting documents. It is a computer program that helps a potential intruder to attack a network.
+Malicious code are of various types. One type is virus, that is a little program attaching to different packages or documents and will copy itself in a computer or even spread to different networked computer systems. Viruses can variety from being noticeably innocent to causing big damage to a device.\\
+Another type is worm which can replicate itself. Proliferation of worms require certain specific conditions. Scripting languages are used to create worms.\\
+Trojan horses are another type of malicious code which appears as safe program. But it is the way they enter into a computer. They may be a part of another safe program and installed within it. They may give control of the victim's computer to someone in a remote location \cite{goswami2012information}.\\
+These types of malicious code  have a severe threat to the security of the networks. A recognizable degradation in the performance could be observed in a computer with malicious codes in breaking-out state. Malicious codes can replicate themselves from one computer to another without you being aware that your machine is infected. This malicious code problem is growing as a serious threat as new forms of current viruses including some new versions are frequently emerging and increasing the vulnerability of the network. Therefore, there is a necessity to develop a new counter defense techniques to control this threat. The universal proposal for malicious code propagation avoidance and control cannot be recommended because of the difficulty in the analysis of evolution trends of malicious codes \cite{yang2012towards}.\\
+ In a proper sense, malicious codes growth (in networks) is epidemic in nature, i.e., it's propagation in a system could be understand using transmission of disease in the biological world. Mathematical models are developed keeping in view the epidemic nature of malicious code propagation. Due to continuous emergence of new types of attacks there is a need to enhance the existing propagation models. Mathematical modeling is growing as an important tool to  study and control malicious codes propagation in computer networks. Mathematical models considers the important factors responsible for malicious codes propagation, such as rates of transmission and recovery, and identify how the malicious codes will spread over a fixed time period.
+
+\section{Organization of Thesis}
+The thesis is organized as follows: In section $1.3$,  we carried out literature review and discussed the works done in the context so far. In section $1.4$, Problem statement and objective are defined. In chapter $2$, a compartmental model using firewall security coefficient is proposed. In chapter $3$, numerical simulation and sensitivity analysis are carried out. Conclusion and future scope of the proposed work are portayed in chapter $4$.
+
+\section{Literature Review}
+In computer networks, malicious codes propagation is epidemic in nature, i.e., the malicious codes propagation could be understand by the transmission of diseases in biological world \cite{sahu2012,kephart1993computers,molen2011math}. Many epidemic models for malicious codes propagation are based on classical SIR model \cite{kermack1927contribution,kermack1932contributions,kermack1933contributions}, which provides an estimate of evolution of malicious codes in the computer networks.
+
+
+Just a little fraction of all recognized malicious codes have showed up in real incidents, because many malicious codes are below the defined threshold epidemic. The models of localized software exchange could be used to explain the identified sub-exponential rate of malicious codes. In a well-secured environments only a little proportion of machines are found to be infected. This may be observed by a model in which, once a machine is contaminated, the majority of its neighboring machines are checked for infections. So, malicious code propagation could be minimized by implementing this idea of 'kill signal'. \\
+In all known epidemiological models, an individual's treatment is done autonomously.
+of some other person. In any case, consider the following situation, one day Ram finds that one of the program he utilizes on his PC is contaminated with an virus, he removes it. In many models, this would be the story's end. Notwithstanding, for this situation Ram takes it upon himself to give this information to his companions Shyam, Mahesh and Suresh with whom he had shared this program at some point in the most recent couple of weeks. All the while Shyam, Mahesh and Suresh removes infection if discovered and propagate information to their companions.
+$P_{kill}$ threshold tool is used (above which there is an infinitesimally small probability of an epidemic) e.g. removal of the malicious codes is comulsory if 3 or more out of a typical 10 neighbors receive the kill signal. Kill signal could be used as an epi-epidemic(like an anti-virus epidemic) \cite{kephart1993computers}.
+
+An examination of the qualities of computer viruses uncovers the problems in the past models. So, a common generalized epidemic model of viruses, which is known as the SLBS model, is proposed.
+
+\subsection{Drawbacks of previous models:}
+
+\subsubsection{E(exposed) compartment}
+It is not possible that a computer doesn't has infectivity. So, no exposed computer exists. Since,
+once attacked by a malicious code, a computer becomes infected immediately and possesses infectivity, because it can propagate this attack to those computers with certain vulnerabilities in the system. Therefore, an epidemic model shouldn't have any E compartment.
+\subsubsection{Single I compartment}
+A well defined epidemic model of malicious code propagation should have two classified I compartments, as L(Latent) compartment for computers with virus in latent state and B(breaking-out) compartment. The probability with which they recover, is a main issue in the  process of modeling. Indeed, recovery of a breaking-out computer is fast than a computer with virus in latent state because it usually has a recognizable degradation in the performance, which can be identified by the user.
+\subsubsection{Permanent R compartment}
+It is probable that a computer which is recovered be infected by new types of malicious codes implying that permanent immunity is not possible. So, an epidemic model should not have any permanent R(recovered) compartment \cite{yang2012towards}.
+
+
+In \cite{misra2014capturing}, Some anti-malware softwares are installed and continuously updated in the network to minimize the abundance of malicious objects and infected computers. On analyzing the proposed model, we obtained two equilibria and a threshold governing the dynamics of malicious objects in a computer network. The characterization of stability behavior of obtained equilibria is also discussed in detail. The aim of this study is to assess the potency of anti-malware softwares in protecting a computer network from malicious attack.
+
+
+In \cite{wang2015worm}, a novel epidemic SVEIR model with partial immunization is proposed. In the SVEIR model, basic reproduction number, global stabilities of malicious codes free steady state and endemic steady state are proven using Lyapunov function. This epidemic model gives a base for controlling Internet worms. The past models don't cosider hosts with virus in latent state. Actually, an infected host in latent state can spread infection by methods like vulnerability seeking. The previous models do not take this passive infectivity into consideration. Immunization is one of commonly used method for controlling the propagation process of worms. Some epidemic models with immunization have been proposed. However, these models all assumed that the vaccine hosts obtained the immunization fully. This is not consistent with the reality. In real networks, it is very difficult to obtain the full immunization for the vaccine hosts. Thus, partial immunization should be a fungible and feasible method for eliminating worms, which have been used for predicting and controlling infectious diseases. This paper proposes a new malicious code defending SVEIR epidemic model, with five compartments as Susceptible-Vaccinated-Exposed-Infectious-Recovered.
+
+
+Standard counsel in regards to control of the vector is to incline toward intercessions that decrease the lifetime of grown-up mosquitoes. The premise for this guidance is a very-old affectability examination of 'vector-limit', for most epidemic models for malaria transmissions and based solely on adult mosquito population dynamics. Recent enhancements in micro-simulation models after a chance to explore the theory of vectorial capacity(including both adult and juvenile mosquito stages in the model).
+In this study we return to contentions about transmission and it's affectability to mosquito binomic parameters utilizing a versatility of created plans of vectorial limit.
+We demonstrate that decreasing grown-up survivals have impacts on both grown-up and adolescent population size, which are not represented in conventional plans of vectorial limit and are huge for transmission. Various mosquito population parameters are responsible for versatility of these effects. In general, control is the most touchy to systems that influence grown-up death rate, trailed by blood encouraging recurrence, human blood bolstering propensity, and in conclusion, to grown-up mosquito populace thickness.
+These outcomes accentuate more unequivocally on than any other time in recent memory the affectability of transmission to grown-up mosquito mortality, additionally propose the high capability of mixes of mediation including administration of source of larva . This must be finished with alert, however as approach obliges a more cautious thought of expenses, operational challenges and arrangement objectives in connection to gauge transmission \cite{brady2015editor}.
+
+
+In \cite{sun2014impact}, The effect of anti-virus program on propagation of computer infection is examined by means of building up a scientific model. Considering the anti-virus program may be attacked with a smaller incident rate. The basic reproduction number is calculated. Considering the anti-virus program may not be effective and the virus may be hidden. In this, an epidemic virus model is established. Latent computers and breaking-out computers are sub-divided from infected computers. The effect of anti-virus program on malicious code propagation is considered. By using Lyapunov function, it is found that the malicious-code free equilibrium is globally asymptotically stable if $R_0 \leq 1$. Routh Stabilty criterion is used for the local asymptotic stability derivation. We have essentially focused around the effect of anti-virus program on the propagation of malicious codes by developing an epidemic model. Considering that the anti-virus program may not be excessively successful as it might be an obsolete form or it may not be upgraded, that is, although a computer with anti-virus program, they can even now re-secure the malicious code with a smaller incident rate.
+
+
+In partial request E-pestilence model with very irresistible hubs, SIJR model of fragmentary request for the transmission of infection in PC system with regular demise has been introduced. The partial subordinates are portrayed in caputo sense. In this model the hubs have two levels of contamination. Predator-corrector strategy is utilized to acquire the numerical arrangement of exhibited model.
+A system of fractional order model that is based on the integer model presented, for modeling propagation of viruses in computer network with natural death as follows:- \\
+\noindent
+$D^{\alpha} (S) = b-\mu S - \beta S I$,  \\
+$D^{\alpha} (I)= \beta S I + \sigma J - \beta I J - \gamma I (\mu + \delta)$, \\
+$ D^{\alpha} (J)= \beta S I J - (\mu + \delta) J - \sigma J + b $, \\
+$ D^{\alpha} (R)= \gamma I - \mu R$, \\
+Where, $0 < \alpha \leq 1$,
+b is birth rate, $\mu$ is natural death rate, $\delta$ is crashing rate of nodes due to virus attack, $\beta$ is the susceptible class (for S to I) and the infectious class (for I to J) transmission rate coefficient, $\sigma$ is highly infectious class (for J to I) transmission rate coefficient and $\gamma$ is highly infectious class (for I to R) transmission rate coefficient.
+
+Basic reproduction number $R_0 = \frac{\beta}{\mu+\sigma+\gamma}$. And, it is given as the expected number of secondary infections produced by a single infection host introduced into a totally susceptible population. In most cases if $R_0 > 1$ then, the infection will propagate in a population whereas if $R_0 < 1$, then the infection will disappear from the population.
+It first define the definition of fractional order differentiation and fractional-order integration. For the concept of fractional-order differentiation, it would have considered Caputo's definition. It is beneficial in dealing properly with initial value problems.
+
+
+With an expanding worldwide dependence on technology, from managing overseeing national electrical grids to requesting supplies for troops, the security of cyber world turn into an imperative topic around the world. Here, an epidemic $S E I_1 I_2 R_1 R_2$ (Susceptible - Exposed - Infected class 1 - Infected class 2 - Recovered class 1 - Recovered class 2 ) model for transmission of malicious codes in a computer network is developed to have a better understanding of removed class on cyber war. An examination of fundamental reproduction number has been carried out and worldwide strength of an assault free state is built up. Besides, starting recreation results demonstrate the framework conduct, dependability investigation for assault free state, effect of removed class in the system for minimizing the contamination and the positive effect of expanding efforts to establish safety on malicious codes propagation in computer network.
+
+With this paper, it examines assaulting conduct of malevolent articles that debilitate the IT security framework inside of associations. The significant assaults are the Denial of Service (DoS) assault and the appropriated form (DDoS). This paper gives the thought regarding how these assaults function actually, and examine approaches to anticipate them in the system. A DoS assault misuses this circumstance by tweaking TCP bundles to make server react to pernicious, manufactured system demands.
+
+
+It accept that the system being partitioned into two distinctive sub-systems or compartments and the aggregate hubs (N) in system are helpless towards the the attack by cyber criminals. The attacker attacks the n (n<N) number of hubs in the sub-system making them very irresistible and the clients are not able to open a particular sites. These n number of hubs are set in a class $I_1$. We additionally accept that when the infectious nodes are flooding the most and the impact of antivirus is negligible in that same hub, they are for all time expelled from the system say k (<n) as their recuperation is weak. The remaining n-k irresistible hubs are sufficiently competent to transmit the infection to the hubs of another sub-system making the extent of hubs irresistible and we say it $I_2$ class. Antivirus programming is keep running at particular time interim to recuperate hubs in $I_2$ class. It accept the slamming of hubs because of equipment/programming termed as common passing and assault of malevolent item is termed as death because of assault.
+
+Numerical Tools Used: Jacobian Matrix and eigen values, Runga-Kutta Fahlberg Method of request 4 and 5 and MATLAB.
+
+The rate of recuperation is high when upgraded adaptation antivirus is keep running into the hubs. In this way, it prescribes the product association to keep up these parameters for against infection programming \cite{mishra2014mathematical}.
+
+In \cite{mishra2011}, a dynamic model was developed which was a prototype for defining vertical transmission of viruses into the networks. Then, in \cite{anupama2014} interplay capturing was defined between viruses and anti-viruses. Bimal kumar Mishra and Dinesh Saini jointly developed some mathematical models on propagation of malicious codes in the computer networks in 2007 \cite{mishra2mathematical,mishra2007mathematical}.
+In \cite{sahu2015dynamics}, a SEQIRS model was proposed which was taken into consideration the effect of media coverage, quarantine and isolation with some already existing immunity.Ren, Jianguo and Xu, Yonghong and Zhang, Chunming ,used the idea of delay in propagation of malicious codes in computer networks and then they defined some techniques for controlling it optimally \cite{ren2013optimal}.
+
+
+
+
+\section{Problem Statement and Objective}
+
+The main objective of our work is to propose an epidemic model for propagation of malicious codes in computer networks. This model is developed to enhance the previous work done in this area.
+
+To achieve this goal, we have developed a model which considers two classes of population named targeted and attacker classes, and these classes are divided into five compartments each(named as, Susceptible-Latent-Breaking out-Recovered-Antidotal). We have also taken into consideration the effect of firewall security coefficient 'm', to analyze its effect on malicious code propagation.
+
