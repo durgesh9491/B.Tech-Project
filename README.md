@@ -2,7 +2,7 @@
 
 ####Institute: Indian Institute of Information Technology and Management, Gwalior. (http://www.iiitm.ac.in/)
 
-####Professor: Dr. Joydip Dhar (https://sites.google.com/site/joydipdhariiitmg/)
+####Supervisor: Dr. Joydip Dhar (https://sites.google.com/site/joydipdhariiitmg/)
 
 ####Topic: Dynamics of Attack of Malicious Codes on the Targeted Network: Effect of Firewall
 
